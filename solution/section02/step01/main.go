@@ -21,7 +21,7 @@ func main() {
 	for i := 0; i < len(result); i++ {
 
 		// 0から99までの間で乱数を生成する
-		num := rand.Intn(99)
+		num := rand.Intn(100)
 
 		// 変数numが0〜79のときは"ノーマル"、
 		// 80〜94のときは"R"、95〜98のときは"SR"、
