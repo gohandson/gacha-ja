@@ -1,4 +1,4 @@
-// STEP01: 基本構文とパッケージ
+// STEP01: Hello, 世界
 
 // mainパッケージの定義
 package main
