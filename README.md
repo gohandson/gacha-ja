@@ -19,7 +19,7 @@
 
 ### [Section 01: 基本構文と標準パッケージ](./skeleton/section01)
 
-学ぶこと：標準パッケージ、変数、制御構文（if、switch、for）
+学ぶこと：標準パッケージ、変数、制御構文（`if`、`switch`、`for`）
 
 * STEP01: Hello, 世界
 * STEP02: 変数を使ってみよう
