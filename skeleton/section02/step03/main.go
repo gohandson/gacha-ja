@@ -1,4 +1,4 @@
-// STEP02: 任意の回数のガチャの結果を記録しよう
+// STEP03: レア度ごとに集計しよう
 
 package main
 
@@ -21,7 +21,7 @@ func main() {
 		fmt.Print("何回引きますか？>")
 		fmt.Scanln(&n)
 
-		// TODO: nが0より大きい場合はforをbreakする
+		// nが0より大きい場合はforをbreakする
 		if n > 0 {
 			break
 		}
@@ -29,11 +29,10 @@ func main() {
 		fmt.Println("もう一度入力してください")
 	}
 
-	// TODO: 長さnの文字列型のスライスを変数resultとして定義する
-	result := make([]string, n)
+	// TODO: キーがstring型で値がint型のマップを定義する
 
-	// TODO: 継続条件をiがresultの要素数より小さい場合にする
-	for i := 0; i < len(result); i++ {
+
+	for i := 0; i < n; i++ {
 
 		// 0から99までの間で乱数を生成する
 		num := rand.Intn(100)
@@ -43,14 +42,14 @@ func main() {
 		// それ以外のときは"XR"と表示する
 		switch {
 		case num < 80:
-			result[i] = "ノーマル"
+			result["ノーマル"]++
 		case num < 95:
-			// TODO: resultのi番目に"R"を代入する
-			result[i] = "R"
+			// resultのi番目に"R"を代入する
+			result["R"]++
 		case num < 99:
-			result[i] = "SR"
+			result["SR"]++
 		default:
-			result[i] = "XR"
+			result["XR"]++
 		}
 	}
 
