@@ -15,7 +15,7 @@ func main() {
 	rand.Seed(time.Now().Unix())
 
 	// 0から99までの間で乱数を生成する
-	num := rand.Intn(99)
+	num := rand.Intn(100)
 
 	// TODO: 変数numが0〜79のときは"ノーマル"、
 	// 80〜94のときは"R"、95〜98のときは"SR"、

@@ -17,7 +17,7 @@ func main() {
 	// TODO: 変数iを1から11まで増やしていき処理を10回繰り返す
 
 		// 0から99までの間で乱数を生成する
-		num := rand.Intn(99)
+		num := rand.Intn(100)
 
 		fmt.Printf("%d回目 ", i)
 
