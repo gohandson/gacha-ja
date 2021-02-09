@@ -7,8 +7,8 @@
 ## 動かし方
 
 ```
-$ go build -v -o step01
-$ ./step01
+$ go build -v -o step02
+$ ./step02
 ```
 
 または
