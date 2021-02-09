@@ -17,13 +17,13 @@
 * `git push`でリモートにプッシュする
 * `main.go`の`gacha`パッケージのインポートパスを自分の公開したものに変更する
 
-※ `github.com/tenntenn`は自身のGitHubアカウントに読み替えてください。
+* ※ `github.com/tenntenn`は自身のGitHubアカウントに読み替えてください。
 
 ## 動かし方
 
 ```
-$ go build -v -o step02
-$ ./step02
+$ go build -v -o step03
+$ ./step03
 ```
 
 または

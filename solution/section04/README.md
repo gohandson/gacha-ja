@@ -5,5 +5,4 @@
 * [STEP01: ファイルを分けよう](./step01)
 * [STEP02: gachaパッケージを作ろう](./step02)
 * [STEP03: gachaパッケージ公開しよう](./step03)
-* [STEP04: gachaパッケージをライブラリとして使ってみよう](./step04)
-* [STEP05: gachaパッケージをバージョンアップしよう](./step05)
+* [STEP04: gachaパッケージにバージョンを付けよう](./step04)
