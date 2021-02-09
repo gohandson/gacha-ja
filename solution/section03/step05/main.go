@@ -61,7 +61,6 @@ func drawN(p *player, n int) ([]card, map[rarity]int) {
 	results := make([]card, n)
 	summary := make(map[rarity]int)
 	for i := 0; i < n; i++ {
-		// TODO: 関数drawが返す値をresultsのi番目に代入する
 		results[i] = draw()
 		summary[results[i].rarity]++
 	}

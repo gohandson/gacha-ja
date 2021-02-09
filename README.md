@@ -55,10 +55,11 @@
 
 学ぶこと：パッケージ、GOPATH、Go Modules
 
-* STEP01: gachaパッケージを作ろう
-* STEP02: gachaパッケージ公開しよう
-* STEP03: gachaパッケージをライブラリとして使ってみよう
-* STEP04: gachaパッケージをバージョンアップしよう
+* STEP01: ファイルを分けよう
+* STEP02: gachaパッケージを作ろう
+* STEP03: gachaパッケージ公開しよう
+* STEP04: gachaパッケージをライブラリとして使ってみよう
+* STEP05: gachaパッケージをバージョンアップしよう
 
 ### Section 05: コマンドラインツール
 ### Section 06: エラー処理
