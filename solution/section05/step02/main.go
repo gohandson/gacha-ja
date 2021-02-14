@@ -40,13 +40,13 @@ func inputN(p *gacha.Player) int {
 func saveResults(results []*gacha.Card) {
 	f, err := os.Create("results.txt")
 	if err != nil {
-		fmt.Println(err)
+		fmt.Fprintln(os.Stderr, err)
 		return
 	}
 
 	defer func() {
 		if err := f.Close(); err != nil {
-			fmt.Println(err)
+			fmt.Fprintln(os.Stderr, err)
 		}
 	}()
 
