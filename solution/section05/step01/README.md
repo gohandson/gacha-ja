@@ -3,6 +3,8 @@
 ## 新しく学ぶこと
 
 * ファイル操作
+* `fmt.Fprintln`関数
+* `fmt.Fprintlnf`関数
 
 ## 動かし方
 
