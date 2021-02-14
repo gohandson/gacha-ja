@@ -29,8 +29,8 @@ func (p *Player) draw(n int) error {
 		return nil
 	}
 
+	p.coin -= (n - p.tickets) * 10 // 1回あたり10枚消費する
 	p.tickets = 0
-	p.coin -= n * 10 // 1回あたり10枚消費する
 
 	return nil
 }

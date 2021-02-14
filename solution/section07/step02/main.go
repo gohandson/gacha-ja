@@ -3,12 +3,9 @@
 package main
 
 import (
-	"errors"
-	"flag"
 	"fmt"
 	"net/http"
 	"os"
-	"strconv"
 
 	"github.com/gohandson/gacha-ja/gacha"
 )
@@ -39,17 +36,4 @@ func run() error {
 	})
 
 	return http.ListenAndServe(":8080", nil)
-}
-
-func initialTickets() (int, error) {
-	if flag.NArg() == 0 {
-		return 0, errors.New("ガチャチケットの枚数を入力してください")
-	}
-
-	num, err := strconv.Atoi(flag.Arg(0))
-	if err != nil {
-		return 0, fmt.Errorf("ガチャチケット数のパース(%q):%w", flag.Arg(0), err)
-	}
-
-	return num, nil
 }
