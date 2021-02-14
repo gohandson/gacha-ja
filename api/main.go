@@ -47,7 +47,7 @@ func main() {
 		for key, val := range dist {
 			count += val
 			if n <= count {
-				fmt.Fprintln(w, key)
+				fmt.Fprint(w, key)
 				return
 			}
 		}
