@@ -91,7 +91,7 @@ func saveResults(results []*gacha.Card) (rerr error) {
 	}
 
 	defer func() {
-		if err := f.Close(); err != nil && rerr != nil {
+		if err := f.Close(); err != nil && rerr == nil {
 			rerr = err
 		}
 	}()
@@ -110,7 +110,7 @@ func saveSummary(summary map[gacha.Rarity]int) (rerr error) {
 	}
 
 	defer func() {
-		if err := f.Close(); err != nil && rerr != nil {
+		if err := f.Close(); err != nil && rerr == nil {
 			rerr = err
 		}
 	}()
