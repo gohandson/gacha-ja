@@ -60,10 +60,45 @@
 * STEP03: gachaパッケージ公開しよう
 * STEP04: gachaパッケージにバージョンを付けよう
 
-### Section 05: コマンドラインツール
-### Section 06: エラー処理
-### Section 07: HTTPクライアントとサーバ / データベース
-### Section 08: Webアプリの公開
+### [Section 05: コマンドラインツール](./skeleton/section05)
+
+学ぶこと：ファイル操作、標準エラー出力、プログラムの終了、コマンドライン引数
+
+* STEP01: ガチャの結果をファイルに保存しよう
+* STEP02: エラーを出力しよう
+* STEP03: プログラムを終了させよう
+* STEP04: 初期コインの枚数をプログラム引数で渡そう
+* STEP05: 初期ガチャチケットの枚数をフラグで渡そう
+
+### [Section 06: エラー処理](./skeleton/section06)
+
+学ぶこと：エラー処理の基礎、エラー処理の応用、パニックとリカバー
+
+* STEP01: ガチャチケットが足りない場合にエラーを発生させよう
+* STEP02: エラーをラップして情報を追加しよう
+* STEP03: エラーの種類によって処理を変えよう
+* STEP04: エラーから情報を取り出そう
+* STEP05: 複数のエラーをまとめよう
+* STEP06: エラー処理をまとめよう
+* STEP07: エラーとパニックの違いを知ろう
+
+### [Section 07: HTTPクライアントとサーバ / データベース](./skeleton/section07)
+
+学ぶこと：HTTPクライアント、HTTPサーバ、テンプレートエンジン、データベース
+
+* STEP01: ガチャAPIを使ってみよう
+* STEP02: HTTPサーバを作ってガチャの結果をブラウザで表示しよう
+* STEP03: ガチャを行うWebアプリを作ろう
+* STEP04: ガチャの結果をデータベースに保存しよう
+
+### [Section 08: Webアプリの公開](./skeleton/section08)
+
+学ぶこと：Google App Engine、デプロイ、Google Cloud Datastore
+
+* STEP01: Google App EngineでガチャWebアプリを公開してみよう
+* STEP02: Google Cloud Datastoreにガチャ結果を保存してみよう
+* STEP03: バージョンアップをしてみよう
+
 ### Section 09: 抽象化とテスト
 ### Section 10: 並行処理
 
