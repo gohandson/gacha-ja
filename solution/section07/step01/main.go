@@ -57,7 +57,11 @@ func run() error {
 
 	n := inputN(p)
 	for play.Draw() {
+		if n <= 0 {
+			break
+		}
 		fmt.Println(play.Result())
+		n--
 	}
 
 	if err := play.Err(); err != nil {
