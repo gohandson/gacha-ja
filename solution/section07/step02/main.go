@@ -1,4 +1,4 @@
-// STEP01: ガチャAPIを使ってみよう
+// STEP02: HTTPサーバを作ってガチャの結果をブラウザで表示しよう
 
 package main
 
