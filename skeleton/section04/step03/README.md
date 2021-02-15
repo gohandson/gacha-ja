@@ -10,7 +10,7 @@
 * GitHub上でリポジトリを作る(名前はgacha)
 * `git clone github.com/tenntenn/gacha`のようにリポジトリをクローンする
 * クローンしたディレクトリに移動する
-* `go mod init github/tenntenn/gacha`のように`go.mod`ファイルを生成する
+* `go mod init github.com/tenntenn/gacha`のように`go.mod`ファイルを生成する
 * ハンズオン資料のSection 03のSTEP03にあるgachaディレクトリ以下のファイルをクローンしてきたディレクトリ以下に移す
 * `git add .`でクローンしたディレクトリ以下のファイルをすべてGitの管理下に置く
 * `git commit -a`ですべてコミットする
