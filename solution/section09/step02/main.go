@@ -1,4 +1,4 @@
-// STEP01: ガチャAPIのクライアントを抽象化しよう
+// STEP02: gachaパッケージをテストしよう
 
 package main
 
