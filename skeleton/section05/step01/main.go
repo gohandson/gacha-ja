@@ -66,9 +66,7 @@ func saveSummary(summary map[gacha.Rarity]int) {
 	defer func() {
 		// TODO: ファイルを閉じる
 		// エラー発生した場合はfmt.Println関数で出力する
-		if err := f.Close(); err != nil {
-			fmt.Println(err)
-		}
+
 	}()
 
 	for rarity, count := range summary {
