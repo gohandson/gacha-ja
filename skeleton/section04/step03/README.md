@@ -11,7 +11,7 @@
 * `git clone github.com/tenntenn/gacha`のようにリポジトリをクローンする
 * クローンしたディレクトリに移動する
 * `go mod init github.com/tenntenn/gacha`のように`go.mod`ファイルを生成する
-* ハンズオン資料のSection 03のSTEP03にあるgachaディレクトリ以下のファイルをクローンしてきたディレクトリ以下に移す
+* ハンズオン資料のSection 04のSTEP03にあるgachaディレクトリ以下のファイルをクローンしてきたディレクトリ以下に移す
 * `git add .`でクローンしたディレクトリ以下のファイルをすべてGitの管理下に置く
 * `git commit -a`ですべてコミットする
 * `git push`でリモートにプッシュする
