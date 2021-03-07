@@ -13,7 +13,7 @@
 * Release Titleに`v0.0.1: First release`と書く
 * 詳細に`First release`と書く
 * `Publish release`ボタンを押す
-* ハンズオンのSection 03のSTEP04のディレクトリに戻る
+* ハンズオンのSection 04のSTEP04のディレクトリに戻る
 * `go get github.com/tenntenn/gacha@v0.0.1`を実行し`v0.0.1`を取得する
 * `go.mod`を開いて`v0.0.1`が利用されていることを確認する
 
