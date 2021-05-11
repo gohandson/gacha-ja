@@ -4,7 +4,7 @@
 
 * ファイル操作
 * `fmt.Fprintln`関数
-* `fmt.Fprintlnf`関数
+* `fmt.Fprintf`関数
 
 ## 動かし方
 
