@@ -35,7 +35,7 @@ func main() {
 			fmt.Println("もう一度入力してください")
 		}
 
-	for i := 1; /* TODO: 継続条件をiがnまでとする */; i++ {
+	for i := 1; /* TODO: 継続条件をiがn以下の場合とする */; i++ {
 
 		// 0から99までの間で乱数を生成する
 		num := rand.Intn(100)

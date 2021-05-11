@@ -14,6 +14,6 @@ $ ./step02
 または
 
 ```
-$ go build run .
+$ go run .
 ```
 

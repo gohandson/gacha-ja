@@ -15,6 +15,6 @@ $ ./step05
 または
 
 ```
-$ go build run .
+$ go run .
 ```
 
