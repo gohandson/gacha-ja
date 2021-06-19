@@ -16,7 +16,7 @@
 * `git commit -a`ですべてコミットする
 * `git push`でリモートにプッシュする
 * `main.go`の`gacha`パッケージのインポートパスを自分の公開したものに変更する
-
+* `go get github.com/yourname/gacha` をする
 * ※ `github.com/tenntenn`は自身のGitHubアカウントに読み替えてください。
 
 ## 動かし方
