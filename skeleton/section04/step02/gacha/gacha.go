@@ -36,6 +36,7 @@ func draw() *Card {
 	case num < 99:
 		// TODO: RarityフィールドがRaritySRで
 		// Nameフィールドが"ドラゴン"のCard型のポインタを返す
+		return &Card{Rarity: RaritySR, Name: "ドラゴン"}
 	default:
 		return &Card{Rarity: RarityXR, Name: "イフリート"}
 	}
