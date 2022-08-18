@@ -18,11 +18,12 @@ var (
 func init() {
 	// TODO: flagCoinに"coin"という名前のフラグを設定する
 	// デフォルト値は0で説明は"コインの初期枚数"
+	flag.IntVar(&flagCoin, "coin", 0, "コインの初期枚数")
 }
 
 func main() {
 	// TODO: フラグをパースする
-
+	flag.Parse()
 	tickets := initialTickets()
 	p := gacha.NewPlayer(tickets, flagCoin)
 
@@ -40,7 +41,7 @@ func initialTickets() int {
 	}
 
 	// TODO: フラグを除いて1つめのプログラム引数を取得してint型に変換する
-
+	num, err := strconv.Atoi(flag.Arg(0))
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
