@@ -30,7 +30,7 @@ func initialTickets() int {
 	// TODO: プログラム引数の1つめを取得し
 	// strconv.Atoi関数でint型に変換する
 	// 第1戻り値は変数num、第2戻り値は変数errに代入する
-
+	num, err := strconv.Atoi(os.Args[1])
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		os.Exit(1)
