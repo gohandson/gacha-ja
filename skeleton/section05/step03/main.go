@@ -42,6 +42,7 @@ func saveResults(results []*gacha.Card) {
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		// TODO: 終了コード1でプログラムを終了させる
+		os.Exit(1)
 	}
 
 	defer func() {
@@ -60,6 +61,7 @@ func saveSummary(summary map[gacha.Rarity]int) {
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		// TODO: 終了コード1でプログラムを終了させる
+		os.Exit(1)
 	}
 
 	defer func() {

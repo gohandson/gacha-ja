@@ -41,7 +41,7 @@ func saveResults(results []*gacha.Card) {
 	f, err := os.Create("results.txt")
 	if err != nil {
 		// TODO: 標準エラー出力にerrを出力する
-
+		fmt.Fprintln(os.Stderr, err)
 		return
 	}
 
@@ -61,11 +61,13 @@ func saveSummary(summary map[gacha.Rarity]int) {
 	if err != nil {
 		fmt.Fprintln(os.Stderr, err)
 		// TODO: returnする
+		return
 	}
 
 	defer func() {
 		if err := f.Close(); err != nil {
 			// TODO: 標準エラー出力にerrを出力する
+			fmt.Fprintln(os.Stderr, err)
 		}
 	}()
 
